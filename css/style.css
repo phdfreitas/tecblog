@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    background-color: #e6e6e6;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    font-family: 'Gloock', serif;
+    background-color: rgb(12, 191, 92);
+    text-align: center;
+    padding: 15px;
+}
+
+#logo, #menu{
+    padding: 15px;
+}
+
+#main{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+#menu-lateral{
+    width: 240px;
+    float: right;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.conteudo-lateral{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    padding: 5px;
+    border-bottom: 1px dotted rgb(12, 191, 92);
+}
+
+#footer{
+    clear: both;
+    background-color: #fff;
+    text-align: center;
+    padding: 7px;
+}
